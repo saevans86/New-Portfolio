@@ -1,18 +1,10 @@
 import { Link } from 'react-router-dom';
 
 function Nav() {
-	
 	return (
-	
-
 		<ul className='nav nav-tabs'>
 			<li className='nav-item'>
 				<Link to='/' className='nav-link'>
-					Home
-				</Link>
-			</li>
-			<li className='nav-item'>
-				<Link to='/AboutMe' className='nav-link'>
 					About me
 				</Link>
 			</li>
@@ -22,20 +14,17 @@ function Nav() {
 				</Link>
 			</li>
 			<li className='nav-item'>
-				<Link to='/Contact' className='nav-link'>
-					Contact
+				<Link to='/ContactMe' className='nav-link'>
+					Contact Me
 				</Link>
 			</li>
-			{/* <li className='nav-item'>
-				<a
-					className='nav-link'
-					to='https://github.com/saevans86'
-				>
-					Github
-				</a>
-			</li> */}
+			<li className='nav-item'>
+				<Link to='/Resume' className='nav-link'>
+					Resume
+				</Link>
+			</li>
 
 		</ul>
 	);
 }
-export default Nav
+export default Nav;
