@@ -1,10 +1,12 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import {
 	createBrowserRouter,
 	RouterProvider,
 } from 'react-router-dom';
+
+import '../src/style/Style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 import Home from './pages/Home'
@@ -13,15 +15,11 @@ import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
 
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 const router = createBrowserRouter([
 	{
 		path: '/',
-		Element: <App />,
+		element: <App />,
 		errorElement: <Error />,
-
 		children: [
 			{
 				index: true,
