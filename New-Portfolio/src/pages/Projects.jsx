@@ -1,10 +1,10 @@
-
+import Images from "../components/UI/img/Images";
 function Projects() {
 	return (
-		<div>
-     
-            display tiles of Projects, hopefull on click
-			bring screenshot/about project to page.
+		<div className="imageContainer">
+			<Images />
+			
+
 		</div>
 	);
 }
