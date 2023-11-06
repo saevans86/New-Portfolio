@@ -14,6 +14,7 @@ import Error from './pages/Error';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
+import ProjectPage from '../src/components/UI/projectpages/ProjectPage'
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 			{
 				path: 'Projects',
 				element: <Projects />,
+			},
+			{
+				path: 'Projects/:id',
+				element: <ProjectPage />,
 			},
 			{
 				path: 'ContactMe',

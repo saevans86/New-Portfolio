@@ -1,9 +1,6 @@
-
 export default function ProjectList() {
-	return (
-
-
-	[
+	 
+	return [
 		{
 			id: 1,
 			title: 'Readme Generator',
@@ -46,6 +43,5 @@ export default function ProjectList() {
 				'https://raw.githubusercontent.com/itsmenickfromschool/animalsWow02/main/images/After-Search.png',
 			projectDetails: 'insert stuff about the project',
 		},
-		]
-		)
+	];
 }
