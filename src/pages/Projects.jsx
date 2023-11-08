@@ -4,16 +4,22 @@ import ProjectPage from '../components/UI/projectpages/ProjectPage';
 import ProjectList from '../components/UI/projectpages/ProjectList';
 
 function Projects() {
-	
-	const projectData = ProjectList(); 
-
+	const projects = ProjectList();
+	// console.log(projects);
 	return (
 		<div className='imageContainer'>
-			{projectData && projectData.length > 0 ? (
-				projectData.map((project) => (
-					<div key={project.id}>
-						<ProjectPage project={project} />
-						<Link to={`/Projects/${project.id}`} className=''>
+			{projects && projects.length > 0 ? (
+				projects.map((project) => (
+					<div key={project.id} >
+						<ProjectPage
+							//  project={project}
+							
+							title={project.title}
+							image={project.image}
+							projectDetails={project.projectDetails}
+						/>
+
+						<Link to={`/ProjectPage/${project.id}`} className=''>
 							View Details
 						</Link>
 					</div>
