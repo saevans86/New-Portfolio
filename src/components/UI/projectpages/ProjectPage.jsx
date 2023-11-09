@@ -1,14 +1,15 @@
-// import ProjectList from './ProjectList';
-export default function ProjectPage(projects ) {
-	const { id, title, image, projectDetails } = projects
-	console.log(id, title, image, projectDetails);
+
+export default function ProjectPage(project) {
+	const { title, image, repo, live } = project;
+
 	return (
-		<div key={projects.id}>
-			<h3>{projects.title}</h3>
+		<div key={project.id}>
+			<h3>{project.title}</h3>
 			<div>
-				<img src={projects.image} alt={projects.title} />
+				<img src={project.image} alt={project.title} />
 			</div>
-			<p>{projects.projectDetails}</p>
+			<a href={project.repo}></a>
+			<a href={project.live}></a>
 		</div>
 	);
 }

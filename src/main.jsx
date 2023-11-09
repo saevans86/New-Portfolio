@@ -14,7 +14,8 @@ import Error from './pages/Error';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
-import ProjectPage from '../src/components/UI/projectpages/ProjectPage'
+
+
 
 const router = createBrowserRouter([
 	{
@@ -27,12 +28,8 @@ const router = createBrowserRouter([
 				element: <AboutMe />,
 			},
 			{
-				path: 'Projects',
+				path: 'projects',
 				element: <Projects />,
-			},
-			{
-				path: 'ProjectPage/:id',
-				element: <ProjectPage />,
 			},
 			{
 				path: 'ContactMe',

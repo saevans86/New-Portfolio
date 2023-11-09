@@ -5,23 +5,22 @@ import ProjectList from '../components/UI/projectpages/ProjectList';
 
 function Projects() {
 	const projects = ProjectList();
-	// console.log(projects);
 	return (
 		<div className='imageContainer'>
 			{projects && projects.length > 0 ? (
 				projects.map((project) => (
-					<div key={project.id} >
+					<div key={project.id}>
 						<ProjectPage
-							//  project={project}
-							
+							project={project.project}
 							title={project.title}
 							image={project.image}
-							projectDetails={project.projectDetails}
+				
 						/>
+				
 
-						<Link to={`/ProjectPage/${project.id}`} className=''>
-							View Details
-						</Link>
+						<Link to={project.repo}>View Repo</Link>
+
+						<Link to={project.repo}>View Demo/Live</Link>
 					</div>
 				))
 			) : (
