@@ -42,7 +42,7 @@ export default function ProjectList() {
 			id: 5,
 			title: 'Express Notes app',
 			image:
-				'https://user-images.githubusercontent.com/130856120/265069893-a7ffb46a-a91f-4794-887c-b0b45c12ccd8.png',
+				'https://user-images.githubusercontent.com/130856120/281779794-de2c62a9-cd17-48ec-92b4-bd0759b0b4b3.png',
 			repo: 'https://github.com/saevans86/express-notes-app',
 			live:
 				'https://user-images.githubusercontent.com/130856120/265070003-9792f576-634f-498c-8db7-18038f397bd3.mp4',

@@ -3,13 +3,18 @@ export default function ProjectPage(project) {
 	const { title, image, repo, live } = project;
 
 	return (
-		<div key={project.id}>
-			<h3>{project.title}</h3>
-			<div>
-				<img src={project.image} alt={project.title} />
-			</div>
-			<a href={project.repo}></a>
-			<a href={project.live}></a>
+		<div>
+			
+			<h3>{title}</h3>
+				<img
+					className='img-fluid'
+					src={image}
+					alt='"Responsive image'
+			/>
+			<div></div>
+			<a href={repo}></a>
+			<a href={live}></a>
+			
 		</div>
 	);
 }
