@@ -1,25 +1,22 @@
+import { React  } from "react";
+import selfie from '../assets/picture.png'
 function AboutMe() {
 	return (
 		<>
-			<div className='card bg-transparent' >
+			<div className='card bg-transparent'>
 				<img
-					classNameName='selfie'
-					src='/src/assets/picture.png'
+					
+					src={selfie}
 					className='card-img-top'
 					alt='picture of sam'
 				/>
 				<div className='card-body'>
 					<p className='card-text'>
-					
-
 						Cat dad, gym enthusiast, full stack web developer
-				
 					</p>
 				</div>
 			</div>
 			<div className='container-fluid'>
-				
-
 				<p>
 					With over 13 years of experience in the dynamic
 					landscape of the medical field, I've honed my skills
