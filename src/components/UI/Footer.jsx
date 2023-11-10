@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<footer className='footer'>
-			<div className='links'>
+			<div className='footerlinks'>
 				<div>
 					<a href='https://github.com/saevans86'>
 						Visit me on github

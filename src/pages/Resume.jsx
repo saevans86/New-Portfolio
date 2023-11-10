@@ -1,16 +1,10 @@
 export default function Resume() {
 	return (
-		<div className="resume">
-			<object
-				data='\src\assets\Samuel-Evans-Full-Stack Web Developer-1.pdf'
-				type='application/pdf'
-				width='100%'
-				height='700'
-			>
-				<p>
-
-				</p>
-			</object>
+		<div className="resumeContainer" >		
+			<div
+			className="resume">
+ <iframe src='\src\assets\Samuel-Evans-Full-Stack Web Developer-1.pdf' width='100%' height='500px' />
+ </div>
 		</div>
 	);
 }

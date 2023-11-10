@@ -1,15 +1,15 @@
-.body {
+/* .body {
 	flex-direction: column;
 	max-width: fit-content;
 	flex-shrink: 0;
-}
+} */
 
 .header {
 	background: transparent;
 	height: 250px;
-	background-image: url('../assets/footer.png');
-	justify-content: center;
-	text-align: center;
+	 background-image: url('../assets/footer.png'); 
+	 justify-content: center; 
+	text-align: left;
 	color: #ffffff;
 
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
@@ -22,6 +22,7 @@
 }
 .nav {
 	justify-content: center;
+	color: #64dd43;
 }
 
 .footer {
@@ -35,7 +36,7 @@
 	color: 000408;
 }
 
-.links {
+.footerlinks {
 	color: #ffffff;
 	background: transparent;
 	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
@@ -45,11 +46,26 @@
 	background: transparent;
 	padding-top: 25px;
 	margin: 25px;
+	font-size: xx-large;
 }
 
 #root {
 	background: #00090a;
 	color: #0abcc7;
+		/* background-image: url('../assets/background.png');
+	
+	background-size: cover;
+	-webkit-animation: slidein 75s;
+	animation: slidein 75s;
+
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate; */
 }
 
 .img-fluid {
@@ -69,16 +85,40 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
+	max-height: fit-content;
+}
+@media screen and (max-width: 768px) {
+    .resume {
+        width: auto; 
+    }
 }
 .resume {
-	height: 100%;
-	width: 100%;
-	min-width: fit-content;
-	min-height: fit-content;
+    height: 900px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
 }
-.pdf {
-	height: fit-content;
-	width: fit-content;
+.resumeContainer {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+	/* background-image: url('../assets/background.png');
+	
+	background-size: cover;
+	-webkit-animation: slidein 75s;
+	animation: slidein 75s;
+
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate; */
 }
 
 @media screen and (max-width: 800px) {
@@ -87,11 +127,29 @@
 		max-width: 50%;
 	}
 }
-/* @media only screen and (max-width: 768px) {
-	.body {
-		width: 100%;
+@-webkit-keyframes slidein {
+	from {
+		background-position: top;
+		background-size: 3000px;
 	}
-} */
+
+	to {
+		background-position: -100px 0px;
+		background-size: 2750px;
+	}
+}
+
+@keyframes slidein {
+	from {
+		background-position: top;
+		background-size: 3000px;
+	}
+
+	to {
+		background-position: -100px 0px;
+		background-size: 2750px;
+	}
+}
 
 .card {
 	height: 100%;
@@ -125,6 +183,4 @@
 	padding-top: 100px;
 }
 
-.nav{
-	color: #64dd43;
-}
+

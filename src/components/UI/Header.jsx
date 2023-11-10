@@ -3,8 +3,8 @@
 function Header() {
 	return (
 		<header className='header'>
-			<h1>Samuel Evans</h1>
-			<h3>Portfolio</h3>
+			<h1 className="myname">Samuel Evans</h1>
+			<h3 className="portfolio">Portfolio</h3>
 		
 
 		</header>
