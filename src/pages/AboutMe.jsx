@@ -1,19 +1,41 @@
 function AboutMe() {
 	return (
-		<div className='bio'>
-			<h1> About Me </h1>
-			<img className='selfie' src='' alt='' />
-			<h3>Hi, I'm Sam </h3>
-			<h6>
-		
-				Cat dad, gym enthusiast, full stack web developer
-			</h6>
-			<p>
-				Experienced healthcare professional transitioning into
-				web development to further enhance my skills and unleash
-				my creativity in building innovative solutions.
-			</p>
-		</div>
+		<>
+			<div className='card bg-transparent' >
+				<img
+					classNameName='selfie'
+					src='/src/assets/picture.png'
+					className='card-img-top'
+					alt='picture of sam'
+				/>
+				<div className='card-body'>
+					<p className='card-text'>
+					
+
+						Cat dad, gym enthusiast, full stack web developer
+				
+					</p>
+				</div>
+			</div>
+			<div className='container-fluid'>
+				
+
+				<p>
+					With over 13 years of experience in the dynamic
+					landscape of the medical field, I've honed my skills
+					across various areas. My journey began with a
+					fascination for development and coding, sparked during
+					my early gaming days.
+				</p>
+
+				<p>
+					Delving into the intricacies behind the scenes has
+					always captivated me. Now, I'm eager to embrace a
+					change of pace, leveraging my diverse background to
+					contribute in new and innovative ways.
+				</p>
+			</div>
+		</>
 	);
 }
 
