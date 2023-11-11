@@ -5,7 +5,6 @@ function AboutMe() {
 		<>
 			<div className='card bg-transparent'>
 				<img
-					
 					src={selfie}
 					className='card-img-top'
 					alt='picture of sam'
@@ -30,6 +29,19 @@ function AboutMe() {
 					always captivated me. Now, I'm eager to embrace a
 					change of pace, leveraging my diverse background to
 					contribute in new and innovative ways.
+				</p>
+				<p>
+					My favorite parts of web development are enjoying
+					challenge of troubleshooting bugs and tinkering with
+					code to achieve the desired outcome, making it my
+					favorite part of web development. It's incredibly
+					rewarding to hit upon a solution after dedicating an
+					entire day to resolving a problem.
+				</p>
+				<p>
+					Please check out my top project picks on the dedicated
+					page and navigate to my Github account using the link
+					provided below or on the project pages.
 				</p>
 			</div>
 		</>
