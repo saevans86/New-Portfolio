@@ -7,8 +7,8 @@
 .header {
 	background: transparent;
 	height: 250px;
-	 background-image: url('../assets/footer.png'); 
-	 justify-content: center; 
+	background-image: url('../assets/footer.png');
+	justify-content: center;
 	text-align: left;
 	color: #ffffff;
 
@@ -20,6 +20,7 @@
 	padding: 75px;
 	color: 000408;
 }
+
 .nav {
 	justify-content: center;
 	color: #64dd43;
@@ -46,13 +47,13 @@
 	background: transparent;
 	padding-top: 25px;
 	margin: 25px;
-	font-size: xx-large;
+	font-size: large;
 }
 
 #root {
 	background: #00090a;
 	color: #0abcc7;
-		/* background-image: url('../assets/background.png');
+	/* background-image: url('../assets/background.png');
 	
 	background-size: cover;
 	-webkit-animation: slidein 75s;
@@ -87,24 +88,27 @@
 	padding: 10px;
 	max-height: fit-content;
 }
+
 @media screen and (max-width: 768px) {
-    .resume {
-        width: auto; 
-    }
+	.resume {
+		width: auto;
+	}
 }
+
 .resume {
-    height: 900px;
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-	
+	height: 900px;
+	width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
+
 .resumeContainer {
-   display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 100%; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* height: 100%; */
 	/* background-image: url('../assets/background.png');
 	
 	background-size: cover;
@@ -127,6 +131,7 @@
 		max-width: 50%;
 	}
 }
+
 @-webkit-keyframes slidein {
 	from {
 		background-position: top;
@@ -162,9 +167,11 @@
 	color: #0abcc7;
 	padding-left: 25px;
 }
+
 .card-body {
 	font-size: small;
 }
+
 .container-fluid {
 	font-size: x-large;
 	float: unset;
@@ -178,9 +185,8 @@
 		float: none;
 	}
 }
+
 .container-sm {
 	height: 650px;
 	padding-top: 100px;
 }
-
-

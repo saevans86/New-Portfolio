@@ -3,7 +3,6 @@ import React from 'react';
 import ProjectPage from '../components/UI/projectpages/ProjectPage';
 import ProjectList from '../components/UI/projectpages/ProjectList';
 
-
 function Projects() {
 	const projects = ProjectList();
 	return (
@@ -14,18 +13,14 @@ function Projects() {
 						<ProjectPage
 							title={project.title}
 							image={project.image}
-							// repo={project.repo}
-							// live={project.live}
 						/>
 
 						<div>
-
-						<Link to={project.repo}>{project.title} Repo </Link>
+							<Link to={project.repo}>{project.title} Repo </Link>
 						</div>
 						<div>
-							
-						<Link to={project.live}>Live/Demo</Link>
-</div>
+							<Link to={project.live}>Live/Demo</Link>
+						</div>
 					</div>
 				))
 			) : (

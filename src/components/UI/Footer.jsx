@@ -13,7 +13,11 @@ function Footer() {
 						LinkedIn
 					</a>
 				</div>
-				<p>You can also email me directly at sam_evans1986@hotmail.com</p>
+				<br />
+				<p>
+					You can also email me directly at
+					sam_evans1986@hotmail.com
+				</p>
 			</div>
 		</footer>
 	);

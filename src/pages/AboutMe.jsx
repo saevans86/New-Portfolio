@@ -1,5 +1,5 @@
-import { React  } from "react";
-import selfie from '../assets/picture.png'
+import { React } from 'react';
+import selfie from '../assets/picture.png';
 function AboutMe() {
 	return (
 		<>
