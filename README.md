@@ -5,7 +5,7 @@ New-Portfolio
 ## Description who/what/when/what/why
 I created the reactjs portfolio to showcase some of the skills I've picked up along my journey beginning web developement.
 With just a week under my belt using reactjs, I'm really excited to see how far this project portfolio has come along, and its been
-extremely nice getting to work in CSS again. Some of my initial struggles with react were the component pages and how they were interacting with each other. I still have a lot more to learn with react, but it feels like such a clean language compared to some of my previous projects, it was am emjoyable challenge. 
+extremely nice getting to work in CSS again. Some of my initial struggles with react were the component pages and how they were interacting with each other. I still have a lot more to learn with react, but it feels like such a clean language compared to some of my previous projects, it was an enjoyable challenge. 
 
 
 
