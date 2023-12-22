@@ -69,15 +69,20 @@
 	animation-direction: alternate; */
 }
 
-.img-fluid {
-	height: 550px;
+.img {
+	height: 365px;
 	width: 550px;
 	margin: 1px;
 	vertical-align: middle;
 	max-width: min-content;
 	padding: 15px;
+	transition: transform .5s;
+	
 }
 
+.img:hover {
+	transform: scale(1.5);
+}
 .projectContainer {
 	justify-content: center;
 	grid-auto-rows: 50px;

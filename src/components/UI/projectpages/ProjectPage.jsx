@@ -7,7 +7,7 @@ export default function ProjectPage(project) {
 			
 			<h3>{title}</h3>
 				<img
-					className='img-fluid'
+					className='img'
 					src={image}
 					alt='"Responsive image'
 			/>

@@ -1,3 +1,4 @@
+import image from '../../../assets/theWeb.png'
 export default function ProjectList() {
 	 
 	return [
@@ -40,16 +41,15 @@ export default function ProjectList() {
 		},
 		{
 			id: 5,
-			title: 'Express Notes app',
-			image:
-				'https://user-images.githubusercontent.com/130856120/281779794-de2c62a9-cd17-48ec-92b4-bd0759b0b4b3.png',
-			repo: 'https://github.com/saevans86/express-notes-app',
-			live:
-				'https://user-images.githubusercontent.com/130856120/265070003-9792f576-634f-498c-8db7-18038f397bd3.mp4',
+			title: 'The Web',
+			image: image,
+			repo:
+				'https://github.com/tmorgan-dev/theWeb?tab=readme-ov-file',
+			live: 'https://theweb-production.up.railway.app/',
 		},
 		{
 			id: 6,
-			title: 'MndMapper',
+			title: 'SVG Logo Generator',
 			image:
 				'https://user-images.githubusercontent.com/130856120/281720116-00acc520-78ce-450e-adf0-321ea30b942e.png',
 			repo: 'https://github.com/saevans86/logo-generator-svg',
